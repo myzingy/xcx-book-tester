@@ -1,0 +1,16 @@
+{
+  "name": "xcx-book-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "miniprogram-automator": "^0.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
