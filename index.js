@@ -8,6 +8,7 @@ automator.connect({
   wsEndpoint: 'ws://127.0.0.1:9420'
 }).then(async program => {
   miniProgram=program
+  //await miniProgram.remote() // 扫码登录连接真机，在真机上执行后续测试脚本
   main()
 })
 async function main(){
